@@ -6,6 +6,21 @@
  * Made By MaterializeCSS.com
  */
 
+nav .brand-logo {
+    font-family: serif;
+} 
+
+.orange-text.text-lighten-3 {
+    color: #e0e721 !important;
+}
+.blue {
+    background-color: #00b0b9 !important;
+}
+
+.light-blue.darken-2 {
+    background-color: #00B0B9 !important;
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -24,8 +39,8 @@
 
 
 .table-of-contents a:hover {
-    color: #FFB74D;
-    background: rgb(250, 250, 250);
+    color: #e0e721;
+    background: rgba(27, 158, 193, 0.8);
 }
 
 .modSide nav ul a:hover {
@@ -37,7 +52,7 @@
 }
 
 .table-of-contents a.active, .table-of-contents a:hover, .header {
-    border-left: 3px solid #FFCC80;
+    border-left: 3px solid #e0e721;
 }
 
 
@@ -53,4 +68,10 @@
 
 .modTop.table-of-contents li {
     padding: 0;
+}
+
+.slider .slides {
+    /* background-color: rgba(30, 44, 51, 0.9) !important; */
+    margin: 0;
+    height: 400px;
 }
