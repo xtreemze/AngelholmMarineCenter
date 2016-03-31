@@ -8,70 +8,92 @@
 
 nav .brand-logo {
     font-family: serif;
-} 
-
+    padding-left:1em;
+}
 .orange-text.text-lighten-3 {
     color: #e0e721 !important;
 }
 .blue {
     background-color: #00b0b9 !important;
 }
-
 .light-blue.darken-2 {
     background-color: #00B0B9 !important;
 }
-
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+    font-size: inherit;
 }
-
 .table-of-contents.modTop a {
     height: 100%;
     padding: 20px 28px;
 }
-
-.table-of-contents a{
-    color:white;
+.table-of-contents a {
+    color: white;
+    font-weight: 500;
 }
-
-
 .table-of-contents a:hover {
     color: #e0e721;
-    background: rgba(27, 158, 193, 0.8);
+    background: rgb(0, 103, 109);
 }
-
 .modSide nav ul a:hover {
     background-color: #FFE0B2;
 }
-
-.table-of-contents.modTop a, .table-of-contents.modSide a{
+.table-of-contents.modTop a,
+.table-of-contents.modSide a {
     border-left: 3px solid rgba(255, 152, 0, 0);
 }
-
-.table-of-contents a.active, .table-of-contents a:hover, .header {
+.table-of-contents a.active,
+.table-of-contents a:hover,
+.header {
     border-left: 3px solid #e0e721;
 }
-
-
 .side-nav li {
     float: none;
     line-height: 64px;
-    padding:0;
+    padding: 0;
 }
-
-.side-nav.table-of-contents li a:hover, .table-of-contents.modSide a.active, .header{
-    padding-left:15px;
+.side-nav.table-of-contents li a:hover,
+.table-of-contents.modSide a.active,
+.header {
+    padding-left: 15px;
 }
-
 .modTop.table-of-contents li {
     padding: 0;
 }
-
 .slider .slides {
-    /* background-color: rgba(30, 44, 51, 0.9) !important; */
+    background-color: rgb(11, 147, 154) !important;
     margin: 0;
     height: 400px;
+}
+.slider .slides li .caption {
+    color: #fff;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    width: 80%;
+    opacity: 0;
+    background-color: rgba(2, 51, 53, 0.4) !important;
+}
+
+h3 {
+    margin: 0;
+}
+
+.white {
+    background-color: rgb(4, 166, 175) !important;
+}
+
+footer.page-footer .footer-copyright {
+    background-color: rgba(2, 51, 53, 0.4);
+    padding-left: 1em;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #e0e721;
+}
+
+nav .button-collapse i {
+    padding-left: .5em;
 }
