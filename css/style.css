@@ -98,3 +98,7 @@ footer.page-footer .footer-copyright {
 nav .button-collapse i {
     padding-left: .5em;
 }
+
+.orange {
+    background-color: #e0e721 !important;
+}
