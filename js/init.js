@@ -10,7 +10,7 @@
         $('.slider').slider({
             full_width: true,
             indicators: true,
-            height: 600
+            height: 500
         });
 
     }); // end of document ready
