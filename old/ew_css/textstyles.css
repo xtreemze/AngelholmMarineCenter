@@ -1,0 +1,85 @@
+.Style1{font-family: 'TimesNewRomanPSMT','Times New Roman',serif;
+font-size: 36px; 
+margin:0;
+word-wrap: break-word;}
+.Style2{font-family: 'Arial',sans-serif;
+font-size: 12px; 
+margin:0;
+word-wrap: break-word;}
+.Style3{font-family: 'ArialMT','Arial',sans-serif;
+font-size: 18px; 
+margin:0;
+word-wrap: break-word;}
+.linkStyle_4{font-family: 'ArialMT','Arial',sans-serif;
+font-size: 18px; 
+color: #0432FF;
+text-decoration: underline; 
+/*000#00F900#0432FE#FF2600*/
+word-wrap: break-word;}
+a.linkStyle_4:visited{color:#0432FE; text-decoration:underline;}
+a.linkStyle_4:hover{color:#FF2600; text-decoration:underline;}
+.Style7{font-family: 'ArialMT','Arial',sans-serif;
+font-size: 18px; 
+word-wrap: break-word;}
+.Style8{font-family: 'BrushScriptMT','Brush Script MT';
+font-size: 86px; 
+font-style: italic;
+margin:0;
+color: #0230D5;
+word-wrap: break-word;}
+.Style9{font-family: 'ArialMT','Arial',sans-serif;
+font-size: 19px; 
+margin:0;
+word-wrap: break-word;}
+.Style10{font-family: 'Arial-ItalicMT','Arial',sans-serif;
+font-size: 18px; 
+font-style: italic;
+word-wrap: break-word;}
+.Style11{font-family: 'Arial-ItalicMT','Arial',sans-serif;
+font-size: 18px; 
+font-style: italic;
+margin:0;
+color: #333333;
+word-wrap: break-word;}
+.Style12{font-family: 'ArialMT','Arial',sans-serif;
+font-size: 18px; 
+font-style: normal;
+color: #333333;
+word-wrap: break-word;}
+.Style13{font-family: 'ArialMT','Arial',sans-serif;
+font-size: 18px; 
+margin:0;
+color: #333333;
+word-wrap: break-word;}
+.Style14{font-family: 'Arial-ItalicMT','Arial',sans-serif;
+font-size: 18px; 
+font-style: italic;
+color: #333333;
+word-wrap: break-word;}
+.Style15{font-family: 'ArialMT','Arial',sans-serif;
+font-size: 18px; 
+color: #333333;
+word-wrap: break-word;}
+.Style16{font-family: 'ArialMT','Arial',sans-serif;
+font-size: 36px; 
+margin:0;
+word-wrap: break-word;}
+.Style17{font-family: 'Impact','Arial',sans-serif;
+font-size: 40px; 
+font-weight:700; 
+margin:0;
+color: #173ED5;
+word-wrap: break-word;}
+.Style18{font-family: 'BrushScriptMT','Brush Script MT';
+font-size: 55px; 
+font-weight: 400;
+font-style: italic;
+color: #173ED5;
+word-wrap: break-word;}
+.Style19{font-family: 'TimesNewRomanPS-BoldItalicMT','Times New Roman',serif;
+font-size: 32px; 
+font-weight:700; 
+font-style: italic;
+margin:0;
+word-wrap: break-word;}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale}
