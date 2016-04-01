@@ -102,3 +102,7 @@ nav .button-collapse i {
 .orange {
     background-color: #e0e721 !important;
 }
+
+blockquote {
+    border-left: 5px solid #04A6AF;
+}
