@@ -54,6 +54,13 @@ nav .brand-logo {
     line-height: 64px;
     padding: 0;
 }
+
+.side-nav a {
+    font-size: 2rem;
+    height: 6rem;
+    line-height: 3em;
+}
+
 .side-nav.table-of-contents li a:hover,
 .table-of-contents.modSide a.active,
 .header {
