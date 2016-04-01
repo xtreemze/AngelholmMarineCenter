@@ -65,15 +65,9 @@ nav .brand-logo {
 .slider .slides {
     background-color: rgb(11, 147, 154) !important;
     margin: 0;
-    height: 80vh;
 }
 .slider .slides li .caption {
-    color: #fff;
-    position: absolute;
     top: 60%;
-    left: 10%;
-    width: 80%;
-    opacity: 0;
     background-color: rgba(2, 51, 53, 0.4) !important;
 }
 

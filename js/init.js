@@ -8,10 +8,9 @@
         });
         $('.scrollspy').scrollSpy();
         $('.slider').slider({
-            full_width: true,
+            full_width: false,
             indicators: true,
             height: 500
         });
-
     }); // end of document ready
 })(jQuery); // end of jQuery name space
