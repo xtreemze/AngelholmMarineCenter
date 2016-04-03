@@ -13,6 +13,9 @@ nav .brand-logo {
 .orange-text.text-lighten-3 {
     color: #e0e721 !important;
 }
+.table-of-contents a:hover {
+    padding-left: 30px;
+}
 .blue {
     background-color: #00b0b9 !important;
 }
@@ -36,26 +39,39 @@ nav .brand-logo {
     color: white;
     font-weight: 500;
 }
-.table-of-contents a:hover {
+.table-of-contents a:hover, .table-of-contents.modSide a.active{
     color: #e0e721;
     background: rgb(0, 103, 109);
 }
 .modSide nav ul a:hover {
     background-color: #FFE0B2;
 }
-.table-of-contents.modTop a,
-.table-of-contents.modSide a {
+.table-of-contents.modSide a{
     border-left: 3px solid rgba(255, 152, 0, 0);
 }
-.table-of-contents a.active,
-.table-of-contents a:hover,
+.table-of-contents.modSide a.active{
+    border-left: 3px solid #e0e721;
+    padding-left: 30px;
+}
+
+.table-of-contents.modTop a{
+  border-top: 3px solid rgba(255, 152, 0, 0);
+  border-left: 0;
+}
+
+.table-of-contents.modTop a:hover, .table-of-contents.modTop a.active{
+       border-top: 3px solid #e0e721;
+}
 .header {
     border-left: 3px solid #e0e721;
+}
+
+.header{
+    padding-left: 1em;
 }
 .side-nav li {
     float: none;
     line-height: 64px;
-    padding: 0;
 }
 
 .side-nav a {
@@ -64,11 +80,7 @@ nav .brand-logo {
     line-height: 3em;
 }
 
-.side-nav.table-of-contents li a:hover,
-.table-of-contents.modSide a.active,
-.header {
-    padding-left: 15px;
-}
+
 .modTop.table-of-contents li {
     padding: 0;
 }
