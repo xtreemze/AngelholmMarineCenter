@@ -8,9 +8,9 @@
 
 nav .brand-logo {
     font-family: serif;
-    padding-left:1em;
+    padding-left: 1em;
 }
-.orange-text.text-lighten-3 {
+.orange-text.text-lighten-3, #modal1 a {
     color: #e0e721 !important;
 }
 .table-of-contents a:hover {
@@ -18,9 +18,6 @@ nav .brand-logo {
 }
 .blue {
     background-color: #00b0b9 !important;
-}
-.light-blue.darken-2 {
-    background-color: #00B0B9 !important;
 }
 .light-blue.darken-2 {
     background-color: rgba(0, 176, 185, 0.82) !important;
@@ -39,48 +36,42 @@ nav .brand-logo {
     color: white;
     font-weight: 500;
 }
-.table-of-contents a:hover, .table-of-contents.modSide a.active{
+.table-of-contents a:hover,
+.table-of-contents.modSide a.active {
     color: #e0e721;
     background: rgb(0, 103, 109);
 }
 .modSide nav ul a:hover {
     background-color: #FFE0B2;
 }
-.table-of-contents.modSide a{
+.table-of-contents.modSide a {
     border-left: 3px solid rgba(255, 152, 0, 0);
 }
-.table-of-contents.modSide a.active{
+.table-of-contents.modSide a.active {
     border-left: 3px solid #e0e721;
     padding-left: 30px;
 }
-
-.table-of-contents.modTop a{
-  border-top: 3px solid rgba(255, 152, 0, 0);
-  border-left: 0;
+.table-of-contents.modTop a {
+    border-top: 3px solid rgba(255, 152, 0, 0);
+    border-left: 0;
 }
-
-.table-of-contents.modTop a:hover, .table-of-contents.modTop a.active{
-       border-top: 3px solid #e0e721;
+.table-of-contents.modTop a:hover,
+.table-of-contents.modTop a.active {
+    border-top: 3px solid #e0e721;
 }
 .header {
     border-left: 3px solid #e0e721;
-}
-
-.header{
     padding-left: 1em;
 }
 .side-nav li {
     float: none;
     line-height: 64px;
 }
-
 .side-nav a {
     font-size: 2rem;
     height: 6rem;
     line-height: 3em;
 }
-
-
 .modTop.table-of-contents li {
     padding: 0;
 }
@@ -92,32 +83,25 @@ nav .brand-logo {
     top: 50%;
     background-color: rgba(2, 51, 53, 0.4) !important;
 }
-
 h3 {
     margin: 0;
 }
-
 .white {
     background-color: rgb(4, 166, 175) !important;
 }
-
-footer.page-footer .footer-copyright {
+footer.page-footer .footer-copyright, #modal1 {
     background-color: rgba(2, 51, 53, 0.4);
     padding-left: 1em;
 }
-
 .slider .indicators .indicator-item.active {
     background-color: #e0e721;
 }
-
 nav .button-collapse i {
     padding-left: .5em;
 }
-
 .orange {
     background-color: #e0e721 !important;
 }
-
 blockquote {
     border-left: 5px solid #04A6AF;
 }

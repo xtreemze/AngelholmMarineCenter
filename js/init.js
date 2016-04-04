@@ -12,5 +12,6 @@
             indicators: true,
             height: 500
         });
+        $('.modal-trigger').leanModal();
     }); // end of document ready
 })(jQuery); // end of jQuery name space
