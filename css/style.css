@@ -57,6 +57,9 @@ nav .brand-logo {
     border-top: 3px solid rgba(255, 152, 0, 0);
     border-left: 0;
 }
+.table-of-contents a {
+    text-transform: uppercase;
+}
 .table-of-contents.modTop a:hover,
 .table-of-contents.modTop a.active {
     border-top: 3px solid #e0e721;
