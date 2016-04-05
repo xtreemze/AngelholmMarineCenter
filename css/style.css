@@ -9,6 +9,9 @@ nav .brand-logo {
     font-family: serif;
     padding-left: 1em;
 }
+.spacer{
+    height:100vh;
+}
 .orange-text.text-lighten-3, #modal1 a,  #modal2 a  {
     color: #e0e721 !important;
 }

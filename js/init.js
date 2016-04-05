@@ -8,9 +8,9 @@
         });
         $('.scrollspy').scrollSpy();
         $('.slider').slider({
-            full_width: false,
+            full_width: true,
             indicators: true,
-            height: 500
+            //height: 500
         });
         $('.modal-trigger').leanModal();
 
