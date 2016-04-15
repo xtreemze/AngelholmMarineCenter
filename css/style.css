@@ -35,7 +35,7 @@ height: 100%;
 }
 
 .light-blue.darken-2 {
-    background-color: rgba(0,176,185,.82)!important
+    background-color: rgba(0,176,185,.95)!important
 }
 
 .icon-block {
@@ -148,7 +148,7 @@ blockquote {
 }
 
 #modal1,#modal2 {
-    background-color: rgba(2,51,53,.4)
+    background-color: rgba(2,51,53,.6)
 }
 
 .card-title,h2 {
