@@ -164,5 +164,9 @@ blockquote {
 }
 
 #modal1, #modal2{
-    max-height:85%;
+    max-height:90%;
+}
+
+.modal.modal-fixed-footer{
+    height:100%;
 }
