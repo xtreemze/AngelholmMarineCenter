@@ -162,3 +162,7 @@ blockquote {
 .white-text a, #modal1 a{
     color: #fff !important;
 }
+
+#modal1, #modal2{
+    max-height:85%;
+}
