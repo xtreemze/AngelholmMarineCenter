@@ -16,16 +16,16 @@
 		});
 		$('.modal-trigger').leanModal();
 		$('.carousel').carousel({
-			time_constant: 200,
-			dist: -50,
-			shift: 40,
-			padding: 50,
-			//full_width: -100
+			time_constant: 400,
+			dist: -12,
+			shift: 2,
+			padding: 24,
+			//full_width: 100
 		});
 		nextCarousel();
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
-var intervalID = window.setInterval(nextCarousel, 3000);
+var intervalID = window.setInterval(nextCarousel, 4000);
 
 function nextCarousel() {
 	$('.carousel').carousel('next');
