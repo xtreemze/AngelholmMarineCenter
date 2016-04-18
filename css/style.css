@@ -3,22 +3,22 @@ nav .brand-logo {
     padding-left: 5px;
     height: 100%;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 8px
 }
 
-.logo, .logoIcon {
-height: 100%;
+.logo,.logoIcon {
+    height: 100%
 }
 
 .logoContainer {
-    background-color:red;
+    background-color: red
 }
 
 .spacer {
     height: 100vh
 }
 
-.orange-text.text-lighten-3,#modal1 a,#modal2 a, #social i {
+.orange-text.text-lighten-3, #modal1 a, #modal2 a, #social i {
     color: #e0e721!important
 }
 
@@ -56,9 +56,9 @@ height: 100%;
     font-weight: 500
 }
 
-.table-of-contents a:hover,.table-of-contents.modSide a.active {
+.table-of-contents a:hover, .table-of-contents.modSide a.active {
     color: #e0e721;
-    background: rgb(0,103,109)
+    background: rgb(0, 103, 109)
 }
 
 .modSide nav ul a:hover {
@@ -66,7 +66,7 @@ height: 100%;
 }
 
 .table-of-contents.modSide a {
-    border-left: 3px solid rgba(255,152,0,0)
+    border-left: 3px solid rgba(255, 152, 0, 0)
 }
 
 .table-of-contents.modSide a.active {
@@ -75,7 +75,7 @@ height: 100%;
 }
 
 .table-of-contents.modTop a {
-    border-top: 3px solid rgba(255,152,0,0);
+    border-top: 3px solid rgba(255, 152, 0, 0);
     border-left: 0
 }
 
@@ -83,7 +83,7 @@ height: 100%;
     text-transform: uppercase
 }
 
-.table-of-contents.modTop a:hover,.table-of-contents.modTop a.active {
+.table-of-contents.modTop a:hover, .table-of-contents.modTop a.active {
     border-top: 3px solid #e0e721
 }
 
@@ -108,7 +108,7 @@ height: 100%;
 }
 
 .slider .slides {
-    background-color: rgb(11,147,154)!important;
+    background-color: rgb(11, 147, 154)!important;
     margin: 0
 }
 
@@ -123,11 +123,11 @@ h3 {
 }
 
 .white {
-    background-color: rgb(4,166,175)!important
+    background-color: rgb(4, 166, 175)!important
 }
 
 footer.page-footer .footer-copyright {
-    background-color: rgba(2,51,53,.4);
+    background-color: rgba(2, 51, 53, .4);
     padding-left: 1em
 }
 
@@ -159,14 +159,22 @@ blockquote {
     line-height: 28px
 }
 
-.white-text a, #modal1 a{
-    color: #fff !important;
+.white-text a, #modal1 a {
+    color: #fff !important
 }
 
-#modal1, #modal2{
-    max-height:100%;
+#modal1,#modal2 {
+    max-height: 100%
 }
 
-.modal.modal-fixed-footer{
-    height:100%;
+.modal.modal-fixed-footer {
+    height: 100%
+}
+
+.card.large {
+    height: 550px
+}
+
+#sponsors {
+    height: 310px !important
 }

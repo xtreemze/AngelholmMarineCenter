@@ -5,9 +5,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
 	<title>MITT HAV</title>
-	<link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" /> 
+	<link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
 	<!-- <link rel="stylesheet" href="https://cdn.materialdesignicons.com/1.5.54/css/materialdesignicons.min.css">-->
-	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen" />
 </head>
@@ -25,6 +24,8 @@
 						</li>
 						<li class="waves-effect waves-light"><a href="#news">Aktuellt</a> 
 						</li>
+						<li class="waves-effect waves-light"><a href="#sponsors">Sponsorer</a> 
+						</li>
 						<li class="waves-effect waves-light"><a href="#contact">Kontakt</a> 
 						</li>
 						<li class="waves-effect waves-light"><a href="english.html">English</a> 
@@ -35,6 +36,8 @@
 						</li>
 						<li><a href="#news">Aktuellt</a> 
 						</li>
+						<li><a href="#sponsors">Sponsorer</a> 
+						</li>
 						<li><a href="#contact">Kontakt</a> 
 						</li>
 						<li><a href="english.html">English</a> 
@@ -43,16 +46,13 @@
 				</div>
 			</nav>
 		</div>
-		<div id="top" class="slider fullscreen scrollspy">
+		<div id="top" class="slider fullscreen scrollspy hide-on-small-only">
 			<ul class="slides">
 				<li>
 					<!-- random image -->
 					<img src="img2/4.jpg">
 					<div class="caption left-align blue header">
 						<h2 class="orange-text text-lighten-3">Idag</h2>
-						<div class="row left">
-							<h5 class="light"></h5> 
-						</div>
 					</div>
 				</li>
 				<li>
@@ -60,9 +60,6 @@
 					<img src="img2/13.jpg">
 					<div class="caption center-align blue header">
 						<h2 class="orange-text text-lighten-3">Imorgon</h2>
-						<div class="row center">
-							<h5 class="light"></h5> 
-						</div>
 					</div>
 				</li>
 				<li>
@@ -70,14 +67,36 @@
 					<img src="img2/14.jpg">
 					<div class="caption right-align blue header">
 						<h2 class="orange-text text-lighten-3">I framtiden</h2>
-						<div class="row right">
-							<h5 class="light"></h5> 
-						</div>
 					</div>
 				</li>
 			</ul>
 		</div>
-		<div class="spacer"></div>
+		<div id="top" class="slider scrollspy hide-on-med-and-up">
+			<ul class="slides">
+				<li>
+					<!-- random image -->
+					<img src="img2/4.jpg">
+					<div class="caption left-align blue header">
+						<h3 class="orange-text text-lighten-3">Idag</h3>
+					</div>
+				</li>
+				<li>
+					<!-- random image -->
+					<img src="img2/13.jpg">
+					<div class="caption center-align blue header">
+						<h3 class="orange-text text-lighten-3">Imorgon</h3>
+					</div>
+				</li>
+				<li>
+					<!-- random image -->
+					<img src="img2/14.jpg">
+					<div class="caption right-align blue header">
+						<h3 class="orange-text text-lighten-3">I framtiden</h3>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="spacer hide-on-small-only"></div>
 		<div id="welcome" class="row scrollspy section">
 			<div class="col m12">
 				<div class="orange-text text-lighten-3">
@@ -87,11 +106,13 @@
 			</div>
 			<div id="about" class="col m12 l4 scrollspy">
 				<div class="card hoverable">
-					<div class="card-content"> <span class="card-title">Om oss</span>
-						<div class="sc-content">
+					<div class="card-content row">
+						<div class="col m6 s12 l12">	<span class="card-title">Om oss</span>
 							<blockquote>Hur ska man kunna veta att ålgräset i Skälderviken är havets barnkammare och av stor betydelse för det lokala fiskbeståndet?</blockquote>
 							<blockquote>Hur ska man kunna beundra den vackra havsanemonen och få se korallen död mans hand på riktigt om man inte är dykare?</blockquote>
 							<blockquote>Hur ska man förstå sambandet mellan en god havsmiljö, fisk och skaldjur på middagsbordet och vår egen livsstil om man saknar kunskap om den marina miljön och de fotspår vi människor lämnar efter oss?</blockquote>
+						</div>
+						<div class="col m6 s12 l12">
 							<p>Vi på Mitt Hav vill väcka nyfikenhet och sprida kunskap om den marina miljön och de arter som finns i våra svenska hav.</p>
 							<br>
 							<p>Mitt Hav drivs av Naturskyddsföreningen i Ängelholm, med stöd av bl.a. Ängelholms kommun, Länsstyrelsen och Sparbanksstiftelsen Gripen.</p>
@@ -102,49 +123,53 @@
 					</div>
 				</div>
 			</div>
-			<div id="hours" class="col m12 l4 scrollspy">
+			<div id="hours" class="col m12 l4">
 				<div class="card hoverable">
 					<div class="card-image">
 						<img class="" src="img2/5.jpg">
 					</div>
 					<div class="card-content">
-						<div class="sc-content">	<span class="card-title">Öppettider: 11-16</span>
-							<br>
-							<br>
-							<p>Välkommen att upptäcka den spännande världen under ytan tillsammans med oss på Mitt Hav. Under sommaren 2016 visar vi en tillfällig utsällning om vår lokala havsmilö och akvarier med djur från södra Kattegatt, norra Öresund och Skälderviken.</p>
-							<br>
-							<p>Fri entré</p>
-							<br>
-							<table class="highlight">
-								<thead>
-									<tr>
-										<th>Månad</th>
-										<th>Dagar</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>maj</td>
-										<td>21 - 22/5 samt 28 - 29/5</td>
-									</tr>
-									<tr>
-										<td>juni</td>
-										<td>torsdag - söndag</td>
-									</tr>
-									<tr>
-										<td>juli</td>
-										<td>dagligen</td>
-									</tr>
-									<tr>
-										<td>augusti</td>
-										<td>dagligen t.o.m. den 14/8, därefter torsdag – söndag</td>
-									</tr>
-									<tr>
-										<td>september</td>
-										<td>1 - 4/9 samt 10 - 11/9</td>
-									</tr>
-								</tbody>
-							</table>
+						<div class="row">
+							<div class="col m6 s12 l12">	<span class="card-title">Öppettider: 11-16</span>
+								<br>
+								<br>
+								<p>Välkommen att upptäcka den spännande världen under ytan tillsammans med oss på Mitt Hav. Under sommaren 2016 visar vi en tillfällig utsällning om vår lokala havsmilö och akvarier med djur från södra Kattegatt, norra Öresund och Skälderviken.</p>
+								<br>
+								<p>Fri entré</p>
+								<br>
+							</div>
+							<div class="col m6 s12 l12">
+								<table class="highlight">
+									<thead>
+										<tr>
+											<th>Månad</th>
+											<th>Dagar</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>maj</td>
+											<td>21 - 22/5 samt 28 - 29/5</td>
+										</tr>
+										<tr>
+											<td>juni</td>
+											<td>torsdag - söndag</td>
+										</tr>
+										<tr>
+											<td>juli</td>
+											<td>dagligen</td>
+										</tr>
+										<tr>
+											<td>augusti</td>
+											<td>dagligen t.o.m. den 14/8, därefter torsdag – söndag</td>
+										</tr>
+										<tr>
+											<td>september</td>
+											<td>1 - 4/9 samt 10 - 11/9</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</div>
 					</div>
 					<div class="card-action"> <a href="https://calendar.google.com/calendar/embed?src=qe4pum9hooabh0p0254o7i24a8%40group.calendar.google.com&ctz=Europe/Stockholm" onclick="Materialize.toast('Öppning Google Kalender', 4000)">PRENUMERERA PÅ VÅR KALENDER <i class="mdi mdi-calendar"></i></a> 
@@ -455,6 +480,34 @@
 			</div>
 			<!--end card-->
 		</div>
+		<div id="sponsors" class="row scrollspy section">
+			<div class="col m12">
+				<div class="orange-text text-lighten-3">
+					<h3>Sponsorer</h3>
+					<h6 class="white-text flow-text">Tack för att stödja oss!</h6> 
+				</div>
+			</div>
+			<div id="sponsors" class="carousel">
+				<a class="carousel-item grey lighten-2" href="#one!">
+					<img src="img/naturelogo.svg">
+				</a>
+				<a class="carousel-item" href="#two!">
+					<img src="img2/5.jpg">
+				</a>
+				<a class="carousel-item" href="#three!">
+					<img src="img2/7.jpg">
+				</a>
+				<a class="carousel-item" href="#five!">
+					<img src="img2/8.jpg">
+				</a>
+				<a class="carousel-item" href="#four!">
+					<img src="img2/3.jpg">
+				</a>
+				<a class="carousel-item" href="#five!">
+					<img src="img2/8.jpg">
+				</a>
+			</div>
+		</div>
 	</main>
 	<footer class="page-footer light-blue darken-2">
 		<div id="contact" class="scrollspy row section">
@@ -496,18 +549,13 @@
 	</footer>
 	<!-- Modal Structure -->
 	<div id="modal1" class="modal bottom-sheet modal-fixed-footer">
-		<div class="modal-content white-text row">
-			<div class="col s12 m9">
+		<div class="modal-content white-text row valign-wrapper">
+			<div class="col s8 l7 valign right-align">
 				<h2 class="orange-text text-lighten-3">Carlos Velasco</h2>
 				<h4 class="flow-text">Interaktiv design och webbutveckling</h4>
-				<ul class="flow-text white-text">
-					<li><i class="mdi mdi-email left"></i><a href="mailto:Carlos@2ActiveDesign.com?subject=Inquiry from MittHav.com">Carlos@2ActiveDesign.com</a>
-					</li>
-					<li><i class="mdi mdi-phone-classic left"></i><a href="tel:0737298257"> 073-729 82 57</a>
-					</li>
-				</ul>
 			</div>
-			<div id="social" class="col s12 m3 orange-text text-lighten-3"> <a href="https://www.behance.net/2Active" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Behance Portfolio"><i class="mdi mdi-behance large"></i></a>  <a href="https://github.com/xtreemze?tab=repositories" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Github Repositories"><i class="mdi mdi-github-box large"></i></a><a href="https://www.linkedin.com/in/carlosevelasco" class="tooltipped" data-position="left" data-delay="50" data-tooltip="LinkedIn Profile"><i class="mdi mdi-linkedin large"></i></a>
+			<div id="social" class="col s4 l5 valign orange-text text-lighten-3"><a href="mailto:Carlos@2ActiveDesign.com?subject=Inquiry from MittHav.com" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Email: Carlos@2ActiveDesign.com"><i class="mdi mdi-email large"></i></a><a href="tel:0737298257" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Tel: 073-729 82 57"><i class="mdi mdi-phone-classic large"></i></a><a href="https://www.linkedin.com/in/carlosevelasco" class="tooltipped" data-position="left" data-delay="50" data-tooltip="LinkedIn Profile"><i class="mdi mdi-linkedin large"></i></a>
+				<br><a href="https://www.behance.net/2Active" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Behance Portfolio"><i class="mdi mdi-behance large"></i></a>  <a href="https://github.com/xtreemze?tab=repositories" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Github Repositories"><i class="mdi mdi-github-box large"></i></a>
 			</div>
 		</div>
 		<div class="modal-footer blue"> <a href="#!" class=" modal-action modal-close waves-effect waves-light btn-flat"><i class="mdi mdi-close"></i></a> 
@@ -519,8 +567,6 @@
     <script src="js/materialize.min.js"></script>
      -->
 	<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-	<!-- Compiled and minified JavaScript -->
-	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 	<script src="js/init.js">
 	</script>
