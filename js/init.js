@@ -15,16 +15,21 @@
 		});
 		$('.modal-trigger').leanModal();
 		$('.carousel').carousel({
-			time_constant: 800,
-			dist: -12,
+			time_constant: 400,
+			dist: -48,
 			shift: 2,
-			padding: 24,
+			padding: 48,
 			//full_width: 100
 		});
 
 var options = [
     {selector: '#sponsors', offset: 500, callback: function(){
-	$('.carousel').carousel('prev', [18]);
+	$('.carousel').carousel('next', [18]);
+	var intervalID = window.setInterval(nextCarousel, 6000);
+
+    function nextCarousel() {
+	$('.carousel').carousel('next');
+}
 }}
   ];
 
@@ -32,4 +37,3 @@ var options = [
 		
 	}); // end of document ready
 })(jQuery); // end of jQuery name space
-
