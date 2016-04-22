@@ -174,3 +174,11 @@ blockquote {
 .card.large {
     height: 550px
 }
+
+#contact li{
+    list-style:none;
+}
+
+#contactList li{
+    opacity:0;
+}
