@@ -31,7 +31,7 @@ nav .brand-logo {
 }
 
 .blue-text {
-    color: #00B0B9!important
+    color: #00b0b9!important
 }
 
 .light-blue.darken-2 {
@@ -58,11 +58,11 @@ nav .brand-logo {
 
 .table-of-contents a:hover, .table-of-contents.modSide a.active {
     color: #e0e721;
-    background: rgb(0, 103, 109)
+    background: #00676d
 }
 
 .modSide nav ul a:hover {
-    background-color: #FFE0B2
+    background-color: #ffe0b2
 }
 
 .table-of-contents.modSide a {
@@ -108,7 +108,7 @@ nav .brand-logo {
 }
 
 .slider .slides {
-    background-color: rgb(11, 147, 154)!important;
+    background-color: #0b939a!important;
     margin: 0
 }
 
@@ -123,7 +123,7 @@ h3 {
 }
 
 .white {
-    background-color: rgb(4, 166, 175)!important
+    background-color: #04a6af!important
 }
 
 footer.page-footer .footer-copyright {
@@ -144,7 +144,7 @@ nav .button-collapse i {
 }
 
 blockquote {
-    border-left: 5px solid #04A6AF
+    border-left: 5px solid #04a6af
 }
 
 #modal1, #modal2 {
@@ -160,7 +160,7 @@ blockquote {
 }
 
 .white-text a, #modal1 a {
-    color: #fff !important
+    color: #fff!important
 }
 
 #modal1, #modal2 {
@@ -176,13 +176,13 @@ blockquote {
 }
 
 #contact li {
-    list-style: none;
+    list-style: none
 }
 
 #contactList li {
-    opacity: 0;
+    opacity: 0
 }
 
 footer.page-footer .footer-copyright {
-    height: 100px;
+    height: 100px
 }
