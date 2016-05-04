@@ -34,14 +34,6 @@ nav .brand-logo {
     background-color: rgba(0, 176, 185, .95)!important
 }
 
-.icon-block {
-    padding: 0 15px
-}
-
-.icon-block .material-icons {
-    font-size: inherit
-}
-
 .table-of-contents.modTop a {
     height: 100%;
     padding: 20px 28px
@@ -55,10 +47,6 @@ nav .brand-logo {
 .table-of-contents a:hover, .table-of-contents.modSide a.active {
     color: #e0e721;
     background: #00676d
-}
-
-.modSide nav ul a:hover {
-    background-color: #ffe0b2
 }
 
 .table-of-contents.modSide a {
@@ -133,10 +121,6 @@ footer.page-footer .footer-copyright {
 
 nav .button-collapse i {
     padding-left: .5em
-}
-
-.orange {
-    background-color: #e0e721!important
 }
 
 blockquote {
