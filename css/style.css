@@ -174,3 +174,8 @@ blockquote {
 footer.page-footer .footer-copyright {
     height: 100px;
 }
+
+.card .card-reveal {
+    height: inherit;
+    min-height: 40%;
+}
