@@ -179,3 +179,7 @@ footer.page-footer .footer-copyright {
     height: initial;
     min-height: 50%;
 }
+
+.card .card-content p {
+    margin: 1em 0;
+}
