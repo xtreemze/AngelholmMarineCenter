@@ -176,6 +176,6 @@ footer.page-footer .footer-copyright {
 }
 
 .card .card-reveal {
-    height: inherit;
-    min-height: 40%;
+    height: initial;
+    min-height: 50%;
 }
