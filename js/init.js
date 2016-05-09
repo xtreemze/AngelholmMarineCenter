@@ -23,7 +23,6 @@
 			padding: 48,
 			//full_width: 100
 		} );
-
 		var options = [ {
 			selector: '#sponsors',
 			offset: 500,
@@ -41,9 +40,14 @@
 				Materialize.showStaggeredList( "#contactList" );
 			}
 		} ];
-
 		Materialize.scrollFire( options );
 		$( '.hidden' ).hide();
+		$( '.grid' ).masonry( {
+			// options
+			itemSelector: '.grid-item',
+			columnWidth: '.grid-item',
+			percentPosition: true
+		} );
 	} );
 	// end of document ready
 } )( jQuery );
