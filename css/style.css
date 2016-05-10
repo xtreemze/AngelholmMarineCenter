@@ -38,6 +38,20 @@ nav .brand-logo {
     color: #00b0b9!important;
 }
 
+.card-action span.blue-text.right {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.card-reveal .card-action {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.card .card-action {
+    padding-right: 0
+}
+
 .light-blue.darken-2 {
     background-color: rgba(0, 176, 185, .95)!important;
 }
@@ -174,6 +188,7 @@ footer.page-footer .footer-copyright {
 .card .card-reveal {
     height: initial;
     min-height: 60%;
+    max-height: 100%
 }
 
 .card .card-content p {
