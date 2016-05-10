@@ -42,6 +42,12 @@
 		} ];
 		Materialize.scrollFire( options );
 		//$( '.hidden' ).hide();
+		$( '.grid' ).masonry( {
+			// options
+			itemSelector: '.grid-item',
+			columnWidth: '.grid-item',
+			percentPosition: true
+		} );
 	} );
 	// end of document ready
 } )( jQuery );
