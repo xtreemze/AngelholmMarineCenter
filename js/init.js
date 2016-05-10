@@ -41,7 +41,7 @@
 			}
 		} ];
 		Materialize.scrollFire( options );
-		$( '.hidden' ).hide();
+		// $( '.hidden' ).hide();
 		$( '.grid' ).masonry( {
 			// options
 			itemSelector: '.grid-item',
