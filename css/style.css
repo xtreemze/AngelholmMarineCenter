@@ -38,10 +38,18 @@ nav .brand-logo {
     color: #00b0b9!important;
 }
 
-span.blue-text.right {
+.card-action span.blue-text.right {
     font-style: italic;
-    padding-right: 0;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+.card-reveal .card-action {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.card .card-action {
+    padding-right: 0
 }
 
 .light-blue.darken-2 {
