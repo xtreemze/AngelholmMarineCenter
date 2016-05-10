@@ -159,10 +159,6 @@ blockquote {
     height: 100%;
 }
 
-.card.large {
-    height: 550px;
-}
-
 #contact li {
     list-style: none;
 }
@@ -177,9 +173,48 @@ footer.page-footer .footer-copyright {
 
 .card .card-reveal {
     height: initial;
-    min-height: 50%;
+    min-height: 60%;
 }
 
 .card .card-content p {
     margin: 1em 0;
+}
+
+
+/*@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .card.largeMod {
+        height: 550px;
+    }
+    .card.largeMod {
+        position: relative;
+    }
+    .card.largeMod .card-image {
+        max-height: 60%;
+        overflow: hidden;
+    }
+    .card.largeMod .card-content {
+        max-height: 40%;
+        overflow: hidden;
+    }
+    .card.largeMod .card-action {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}*/
+
+@media only screen and (max-width: 992px) {
+    .slider.fullscreen {
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+    .slider.fullscreen ul.slides {
+        height: 400px
+    }
+    .slider.fullscreenMod ul.indicators {
+        z-index: 2;
+        bottom: 0
+    }
 }
