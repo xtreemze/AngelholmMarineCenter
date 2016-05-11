@@ -1,9 +1,0 @@
-{
-  "name": "MITT HAV",
-  "short_name": "MITT HAV",
-  "start_url": "/?homescreen=1",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#00B0B9",
-  "theme_color": "#00B0B9"
-}
