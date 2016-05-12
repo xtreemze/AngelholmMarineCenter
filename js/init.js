@@ -1,20 +1,4 @@
 (function jQ($) {
-  const options = [{
-    selector: '#sponsors',
-    offset: 500,
-    callback: function Ca() {
-      function nextCarousel() {
-        $('.carousel').carousel('next');
-      }
-      window.setInterval(nextCarousel, 6000);
-    },
-  }, {
-    selector: '#contact',
-    offset: 220,
-    callback: function Sta() {
-      Materialize.showStaggeredList('#contactList');
-    },
-  }];
   $('.button-collapse').sideNav({
     menuWidth: 320,
     // Default is 240
@@ -39,7 +23,6 @@
     padding: 48,
     // full_width: 100
   });
-  Materialize.scrollFire(options);
   $('.hidden').hide();
   $('.grid').masonry({
     // options
