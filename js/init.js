@@ -23,7 +23,6 @@
     padding: 48,
     // full_width: 100
   });
-  $('.hidden').hide();
   $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
