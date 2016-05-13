@@ -30,6 +30,23 @@
     columnWidth: '.grid-item',
     percentPosition: true,
   });
+  const options = [{
+    selector: '#sponsors',
+    offset: 500,
+    callback: function cycle() {
+      function nextCarousel() {
+        $('.carousel').carousel('next');
+      }
+      window.setInterval(nextCarousel, 6000);
+    },
+  }, {
+    selector: '#contact',
+    offset: 220,
+    callback: function contacts() {
+      Materialize.showStaggeredList('#contactList');
+    },
+  }];
+  Materialize.scrollFire(options);
   // end of document ready
 }(jQuery));
 // end of jQuery name space

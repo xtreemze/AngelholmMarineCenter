@@ -3,13 +3,13 @@
 // !minOnSave
 // minOnSave: false
 module.exports = {
-  // "ecmaFeatures": {
-  // 	"jsx": true,
-  // 	"modules": true,
-  // 	"arrowFunctions": true,
-  // 	"classes": true,
-  // 	"spread": true,
-  // },
+  "ecmaFeatures": {
+    "jsx": false,
+    "modules": false,
+    "arrowFunctions": false,
+    "classes": true,
+    "spread": true,
+  },
   "env": {
     "browser": true,
     // "es6": true
