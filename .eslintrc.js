@@ -3,6 +3,7 @@
 // !minOnSave
 // minOnSave: false
 module.exports = {
+  "ecmaVersion": 5,
   "ecmaFeatures": {
     "jsx": false,
     "modules": false,
@@ -12,7 +13,8 @@ module.exports = {
   },
   "env": {
     "browser": true,
-    // "es6": true
+    "jquery": true
+      // "es6": true
   },
   "extends": "airbnb",
   // "rules": {
@@ -22,9 +24,7 @@ module.exports = {
   // 	"semi": [ "error", "always" ]
   // },
   "globals": {
-    "$": true,
     "Materialize": true,
-    "jQuery": true,
     "intervalID": true
   }
 };
