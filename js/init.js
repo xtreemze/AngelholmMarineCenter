@@ -25,8 +25,8 @@
   });
   $('.grid').masonry({
     // options
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-item',
+    // itemSelector: '.grid-item',
+    // columnWidth: '.gridItem',
     percentPosition: true,
   });
   const options = [{
@@ -38,13 +38,15 @@
       }
       window.setInterval(nextCarousel, 6000);
     },
-  }, {
-    selector: '#contact',
-    offset: 220,
-    callback: function contacts() {
-      Materialize.showStaggeredList('#contactList');
-    },
-  }];
+  },
+    //  {
+    //   selector: '#contact',
+    //   offset: 220,
+    //   callback: function contacts() {
+    //     Materialize.showStaggeredList('#contactList');
+    //   },
+    // }
+  ];
   Materialize.scrollFire(options);
   // end of document ready
 }(jQuery));
