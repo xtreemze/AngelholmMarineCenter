@@ -74,13 +74,15 @@
  ███ ███  ███████ ███████  ██████  ██████  ██      ██ ███████
 -->
 			<div class="spacer hide-on-med-and-down"></div>
-			<div id="welcome" class="row scrollspy section">
-				<div class="col m12">
+			<section class="row">
+				<div class="col s12 m12 l12">
 					<div class="orange-text text-lighten-3">
 						<h3>Välkomna</h3>
 						<h6 class="white-text flow-text">Upptäck den fantastiska världen under havsytan tillsammans med oss på Mitt Hav!</h6> </div>
 				</div>
-				<div id="about" class="col m12 l4 scrollspy">
+			</section>
+			<div id="welcome" class="row section scrollspy grid">
+				<div class="col s12 m12 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-content row">
 							<div class="col m6 s12 l12"> <span class="card-title">Om oss</span>
@@ -92,19 +94,19 @@
 								<p>Vi på Mitt Hav vill väcka nyfikenhet och sprida kunskap om den marina miljön och de arter som finns i våra svenska hav.</p>
 								<p>Mitt Hav drivs av Naturskyddsföreningen i Ängelholm, med stöd av bl.a. Ängelholms kommun, Länsstyrelsen och Sparbanksstiftelsen Gripen.</p> <img alt="MITT HAV" class="responsive-img" src="img/naturelogo.svg"> </div>
 						</div>
-						<div class="card-action"> <a class="blue-text" href="https://www.facebook.com/skalderviken/" onclick="Materialize.toast('Öppning FACEBOOK', 4000)">FÖLJ OSS PÅ FACEBOOK <i class="mdi mdi-facebook-box"></i></a> <a class="blue-text" href="img/program2016.pdf">LADDA NER VÅRT PROGRAM <i class="mdi mdi-file-pdf"></i></a>							</div>
+						<div class="card-action"> <a class="blue-text" href="https://www.facebook.com/skalderviken/" onclick="Materialize.toast('Öppning FACEBOOK', 4000)">FÖLJ OSS PÅ FACEBOOK <i class="mdi mdi-facebook-box"></i></a> <a class="blue-text" href="img/program2016.pdf">LADDA NER VÅRT PROGRAM <i class="mdi mdi-file-pdf"></i></a> </div>
 					</div>
 				</div>
-				<div id="hours" class="col s12 m6 l4">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image"> <img alt="MITT HAV" src="img2/5.jpg"> </div>
 						<div class="card-content">
 							<div class="row">
-								<div class="col m12 l12"> <span class="card-title">Öppettider: 11-16</span>
+								<div class="col s12 m12 l12"> <span class="card-title">Öppettider: 11-16</span>
 									<p>Välkommen att upptäcka den spännande världen under ytan tillsammans med oss på Mitt Hav. Under sommaren 2016 visar vi en tillfällig utsällning om vår lokala havsmilö och akvarier med djur från södra Kattegatt, norra Öresund och Skälderviken.</p>
 									<p>Fri entré</p>
 								</div>
-								<div class="col m12 l12">
+								<div class="col s12 m12 l12">
 									<table class="highlight">
 										<thead>
 											<tr>
@@ -138,11 +140,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="card-action"> <a class="blue-text" href="https://calendar.google.com/calendar/embed?src=qe4pum9hooabh0p0254o7i24a8%40group.calendar.google.com&ctz=Europe/Stockholm" onclick="Materialize.toast('Öppning Google Kalender', 4000)">PRENUMERERA PÅ VÅR KALENDER <i class="mdi mdi-calendar"></i></a>							</div>
+						<div class="card-action"> <a class="blue-text" href="https://calendar.google.com/calendar/embed?src=qe4pum9hooabh0p0254o7i24a8%40group.calendar.google.com&ctz=Europe/Stockholm" onclick="Materialize.toast('Öppning Google Kalender', 4000)">PRENUMERERA PÅ VÅR KALENDER <i class="mdi mdi-calendar"></i></a> </div>
 					</div>
 				</div>
 				<!--start card-->
-				<div class="col s12 m6 l4">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image"> <img alt="MITT HAV" class="activator materialboxed" data-caption="Klittervägen 45, 262 63 Ängelholm" src="img2/mitthav.jpg"> </div>
 						<div class="card-content"> <span class="card-title activator">Besök oss</span>
@@ -150,9 +152,22 @@
 							<p class="flow-text">Klittervägen 45
 								<br>262 63 Ängelholm</p>
 						</div>
-						<div class="card-action"> <a class="blue-text" href="https://www.google.com/maps/place/Klitterv%C3%A4gen+45,+262+63+%C3%84ngelholm,+Sweden/@56.2638083,12.8366815,18.67z/data=!4m2!3m1!1s0x46518087886db9ff:0x9fbe46502cb4acae" onclick="Materialize.toast('Öppning Google Kartan', 4000)">hitta oss på kartan <i class="mdi mdi-google-maps"></i></a>							</div>
+						<div class="card-action"> <a class="blue-text" href="https://www.google.com/maps/place/Klitterv%C3%A4gen+45,+262+63+%C3%84ngelholm,+Sweden/@56.2638083,12.8366815,18.67z/data=!4m2!3m1!1s0x46518087886db9ff:0x9fbe46502cb4acae" onclick="Materialize.toast('Öppning Google Kartan', 4000)">hitta oss på kartan <i class="mdi mdi-google-maps"></i></a> </div>
 					</div>
 				</div>
+				<article class="col s12 m6 l4 gridItem">
+					<div class="card hoverable">
+						<div class="carousel card-image">
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/1.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/2.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/3.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/4.png"> </a>
+						</div>
+						<div class="card-content">
+							<div class="card-action"> <span class="blue-text right">Sponsorer - Tack för att stödja oss!</span> </div>
+						</div>
+					</div>
+				</article>
 			</div>
 			<!--end card-->
 			<!--
@@ -178,7 +193,7 @@
 				 ██████ ██   ██ ██   ██ ██████       ██
 				-->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/Skolverksamhet.jpg">
 							<div class="activator card-title">Maj-Juni</div>
@@ -189,8 +204,7 @@
 							<div class="card-action"> <span class="blue-text right">Marinpedagogisk verksamhet</span> </div>
 						</div>
 						<div class="card-reveal"> <span class="card-title grey-text text-darken-4">SKOLVERKSAMHET<i class="mdi mdi-close right"></i></span>
-							<p>Tillsammans med Mitt Havs marinbiologer upptäcker ni djuren i våra akvarier, beger er på en strandexkursion och tittar nära på det man inte kan se med blotta ögat. Eleverna lär genom lustfyllt praktiskt genomförande och våra marinbiologer visar
-								och berättar.</p>
+							<p>Tillsammans med Mitt Havs marinbiologer upptäcker ni djuren i våra akvarier, beger er på en strandexkursion och tittar nära på det man inte kan se med blotta ögat. Eleverna lär genom lustfyllt praktiskt genomförande och våra marinbiologer visar och berättar.</p>
 							<p>Vi erbjuder pedagogisk skolverksamhet:</p>
 							<p>10 maj - 2 juni</p>
 							<p>Tisdagar, onsdagar och torsdagar</p>
@@ -207,7 +221,7 @@
  ██████ ██   ██ ██   ██ ██████      ███████
 -->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/8.jpg"> <span class="card-title activator"></span> </div>
 						<div class="card-content"> <span class="card-title activator">Invigning <i class="mdi mdi-dots-vertical right tooltipped" data-position="top" data-delay="50" data-tooltip="Läs mer"></i></span>
@@ -232,7 +246,7 @@
  ██████ ██   ██ ██   ██ ██████      ██████
 -->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/Krabbmetartavling.jpg"> <span class="card-title activator">Juni-Augusti</span></div>
 						<div class="card-content"> <span class="card-title activator">KRABBMETARTÄVLINGAR <i class="mdi mdi-dots-vertical right tooltipped" data-position="top" data-delay="50" data-tooltip="Läs mer"></i></span>
@@ -344,7 +358,7 @@
 				 ██████ ██   ██ ██   ██ ██████           ██
 				-->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/Strandskola2.jpg"> <span class="card-title activator">Juli-Augusti</span> </div>
 						<div class="card-content"> <span class="card-title activator">STRANDSKOLA <i class="mdi mdi-dots-vertical right tooltipped" data-position="top" data-delay="50" data-tooltip="Läs mer"></i></span>
@@ -365,7 +379,7 @@
 				 ██████ ██   ██ ██   ██ ██████      ███████
 				-->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/Vattenlager.jpg"> <span class="card-title activator">12-13 AUGUSTI</span> </div>
 						<div class="card-content"> <span class="card-title activator">VATTENLÄGER <i class="mdi mdi-dots-vertical right tooltipped" data-position="top" data-delay="50" data-tooltip="Läs mer"></i></span>
@@ -386,7 +400,7 @@
 				 ██████ ██   ██ ██   ██ ██████       ██████
 				-->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/strandhugg.jpg"> <span class="card-title activator">Juni-Augusti</span> </div>
 						<div class="card-content"> <span class="card-title activator">STRANDHUGG <i class="mdi mdi-dots-vertical right tooltipped" data-position="top" data-delay="50" data-tooltip="Läs mer"></i></span>
@@ -407,7 +421,7 @@
 				 ██████ ██   ██ ██   ██ ██████         ██
 				-->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/Skaldervikssafari.jpg"> <span class="card-title activator">JUNI–AUGUSTI</span> </div>
 						<div class="card-content"> <span class="card-title activator">SKÄLDERVIKSSAFARI MED RIB-BÅT <i class="mdi mdi-dots-vertical right tooltipped" data-position="top" data-delay="50" data-tooltip="Läs mer"></i></span>
@@ -427,7 +441,7 @@
 				 ██████ ██   ██ ██   ██ ██████       █████
 				-->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/fladdermussafari.jpg"> <span class="card-title activator">Juni-Augusti</span> </div>
 						<div class="card-content"> <span class="card-title activator">FLADDERUSSAFARI <i class="mdi mdi-dots-vertical right tooltipped" data-position="top" data-delay="50" data-tooltip="Läs mer"></i></span>
@@ -447,7 +461,7 @@
 				 ██████ ██   ██ ██   ██ ██████       █████
 				-->
 				<!--start card-->
-				<div class="col s12 m6 l4 grid-item">
+				<div class="col s12 m6 l4 gridItem">
 					<div class="card hoverable">
 						<div class="card-image waves-effect waves-block waves-light"> <img alt="MITT HAV" class="activator" src="img2/Skolverksamhet.jpg"> <span class="card-title activator">Augusti-September</span> </div>
 						<div class="card-content"> <span class="card-title activator">SKOLVERKSAMHET <i class="mdi mdi-dots-vertical right tooltipped" data-position="top" data-delay="50" data-tooltip="Läs mer"></i></span>
@@ -456,8 +470,7 @@
 							<div class="card-action"> <span class="blue-text right">Marinpedagogisk verksamhet</span> </div>
 						</div>
 						<div class="card-reveal"> <span class="card-title grey-text text-darken-4">SKOLVERKSAMHET<i class="mdi mdi-close right"></i></span>
-							<p>Tillsammans med Mitt Havs marinbiologer upptäcker ni djuren i våra akvarier, beger er på en strandexkursion och tittar nära på det man inte kan se med blotta ögat. Eleverna lär genom lustfyllt praktiskt genomförande och våra marinbiologer visar
-								och berättar.</p>
+							<p>Tillsammans med Mitt Havs marinbiologer upptäcker ni djuren i våra akvarier, beger er på en strandexkursion och tittar nära på det man inte kan se med blotta ögat. Eleverna lär genom lustfyllt praktiskt genomförande och våra marinbiologer visar och berättar.</p>
 							<p>Vi erbjuder pedagogisk skolverksamhet:</p>
 							<p>23 augusti - 29 september</p>
 							<p>Tisdagar, onsdagar och torsdagar</p>
@@ -466,40 +479,29 @@
 					</div>
 				</div>
 				<!--end card-->
-			</div>
-			<!--
-			███████ ██████   ██████  ███    ██ ███████  ██████  ██████  ███████
-			██      ██   ██ ██    ██ ████   ██ ██      ██    ██ ██   ██ ██
-			███████ ██████  ██    ██ ██ ██  ██ ███████ ██    ██ ██████  ███████
-			     ██ ██      ██    ██ ██  ██ ██      ██ ██    ██ ██   ██      ██
-			███████ ██       ██████  ██   ████ ███████  ██████  ██   ██ ███████
-			-->
-			<div id="sponsors" class="row section scrollspy hide reveal">
-				<div class="col m12 l4">
-					<div class="orange-text text-lighten-3">
-						<h3>Sponsorer</h3>
-						<h6 class="white-text flow-text">Tack för att stödja oss!</h6> </div>
-				</div>
-				<div class="col s12 m12 l8">
-					<div class="card-panel hoverable">
-						<div class="carousel">
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/1.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/2.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/3.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/4.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/7.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/8.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/9.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/10.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/11.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/13.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/15.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/16.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/17.jpg"> </a>
-							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/18.jpg"> </a>
+				<article class="col s12 m6 l4 gridItem">
+					<div class="card hoverable">
+						<div class="carousel card-image">
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/7.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/8.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/9.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/10.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/11.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/13.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/15.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/16.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/17.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/18.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/19.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/20.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/21.png"> </a>
+							<a class="carousel-item"> <img alt="MITT HAV" src="img2/sponsors/22.png"> </a>
+						</div>
+						<div class="card-content">
+							<div class="card-action"> <span class="blue-text right">Sponsorer - Tack för att stödja oss!</span> </div>
 						</div>
 					</div>
-				</div>
+				</article>
 			</div>
 		</main>
 		<!--
@@ -509,7 +511,7 @@
 		██      ██    ██ ██    ██    ██    ██      ██   ██
 		██       ██████   ██████     ██    ███████ ██   ██
 		-->
-		<div class="spacerHalf hide-on-small-only"></div>
+		<!-- <div class="spacerHalf hide-on-small-only"></div> -->
 		<footer class="page-footer light-blue darken-2">
 			<div id="contact" class="scrollspy row section">
 				<div class=" col m12 l4">
@@ -540,7 +542,7 @@
 								<li>
 									<h6>Marinbiolog</h6></li>
 								<li><i class="mdi mdi-email left"></i><a class="white-text" href="mailto:Johanna@kullaval.se?subject=Inquiry_from_MittHav.com">Johanna@kullaval.se</a> </li>
-								<li><i class="mdi mdi-phone-classic left"></i><a class="white-text" href="tel:0737465654"> 073-746 56 54</a> </li>
+								<li><i class="mdi mdi-phone-classic left"></i><a class="white-text" href="tel:0737465654"> 073-738 30 36</a> </li>
 							</ul>
 						</div>
 					</li>
@@ -548,7 +550,7 @@
 			</div>
 			<div class="spacerHalf hide-on-small-only"></div>
 			<div class="footer-copyright">
-				<div class="row"> <span class="col s12 m4">Designad av <a class="orange-text text-lighten-3 modal-trigger" href="#modal1">Carlos Velasco</a></span> <span class="col s12 m8">Logotyp och image: <a class="orange-text text-lighten-3" href="http://monicapalmqvist.se/">Monica Palmqvist</a></span>					</div>
+				<div class="row"> <span class="col s12 m4">Designad av <a class="orange-text text-lighten-3 modal-trigger" href="#modal1">Carlos Velasco</a></span> <span class="col s12 m8">Logotyp och image: <a class="orange-text text-lighten-3" href="http://monicapalmqvist.se/">Monica Palmqvist</a></span> </div>
 			</div>
 		</footer>
 		<div id="modal1" class="modal bottom-sheet modal-fixed-footer">
@@ -556,11 +558,8 @@
 				<div class="col s8 l7 valign right-align">
 					<h2 class="orange-text text-lighten-3">Carlos Velasco</h2>
 					<h4 class="flow-text">Interaktiv design och webbutveckling</h4> </div>
-				<div id="social" class="col s4 l5 valign orange-text text-lighten-3"><a href="mailto:Carlos@2ActiveDesign.com?subject=Inquiry_from_MittHav.com" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Email: Carlos@2ActiveDesign.com"><i class="mdi mdi-email large"></i></a> <a href="tel:0737298257" class="tooltipped"
-									data-position="left" data-delay="50" data-tooltip="Tel: 073-729 82 57"><i class="mdi mdi-phone-classic large"></i></a>
-					<a href="https://www.linkedin.com/in/carlosevelasco" class="tooltipped" data-position="left" data-delay="50" data-tooltip="LinkedIn Profile"><i class="mdi mdi-linkedin large"></i></a>
-					<br><a href="https://www.behance.net/2Active" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Behance Portfolio"><i class="mdi mdi-behance large"></i></a> <a href="https://github.com/xtreemze?tab=repositories" class="tooltipped"
-									data-position="left" data-delay="50" data-tooltip="Github Repositories"><i class="mdi mdi-github-box large"></i></a> </div>
+				<div id="social" class="col s4 l5 valign orange-text text-lighten-3"><a href="mailto:Carlos@2ActiveDesign.com?subject=Inquiry_from_MittHav.com" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Email: Carlos@2ActiveDesign.com"><i class="mdi mdi-email large"></i></a> <a href="tel:0737298257" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Tel: 073-729 82 57"><i class="mdi mdi-phone-classic large"></i></a> <a href="https://www.linkedin.com/in/carlosevelasco" class="tooltipped" data-position="left" data-delay="50" data-tooltip="LinkedIn Profile"><i class="mdi mdi-linkedin large"></i></a>
+					<br><a href="https://www.behance.net/2Active" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Behance Portfolio"><i class="mdi mdi-behance large"></i></a> <a href="https://github.com/xtreemze?tab=repositories" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Github Repositories"><i class="mdi mdi-github-box large"></i></a> </div>
 			</div>
 			<div class="modal-footer blue"> <a href="#!" class=" modal-action modal-close waves-effect waves-light btn-flat"><i class="mdi mdi-close"></i></a> </div>
 		</div>
