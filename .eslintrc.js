@@ -8,25 +8,33 @@ module.exports = {
     "jsx": false,
     "modules": false,
     "arrowFunctions": false,
-    "classes": true,
-    "spread": true,
+    "classes": false,
+    "spread": false,
+    "impliedStrict": true
   },
   "env": {
     "browser": true,
-    "jquery": true
-      // "es6": true
+    "jquery": true,
   },
   "extends": "airbnb",
   "installedESLint": true,
   "plugins": ["react"],
-  // "rules": {
-  // 	"indent": [ "error", "tab" ],
-  // 	"linebreak-style": [ "error", "windows" ],
-  // 	"quotes": [ "error", "single" ],
-  // 	"semi": [ "error", "always" ]
-  // },
+  "rules": {
+    // "indent": [ "error", "tab" ],
+    // "linebreak-style": [ "error", "windows" ],
+    // "quotes": [ "error", "single" ],
+    // "semi": [ "error", "always" ]
+    // "newline-per-chained-call": ["off"],
+    "no-var": ["off"],
+    "max-len": ["off", 100, 4],
+    // "radix": ["off"],
+    // "prefer-template": ["off"],
+    "prefer-arrow-callback": ["off"],
+    "func-names": ["off"],
+    // "no-use-before-define": ["off"]
+  },
   "globals": {
-    "Materialize": true,
-    "intervalID": true
+    "Materialize": false,
+    "toggleFullScreen": false
   }
 };
