@@ -30,13 +30,13 @@
     percentPosition: true,
   });
   const options = [{
-    selector: '#sponsors',
+    selector: '.carousel',
     offset: 500,
     callback: function cycle() {
       function nextCarousel() {
         $('.carousel').carousel('next');
       }
-      window.setInterval(nextCarousel, 6000);
+      window.setInterval(nextCarousel, 5000);
     },
   },
     //  {

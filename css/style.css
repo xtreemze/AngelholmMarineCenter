@@ -242,3 +242,7 @@ footer.page-footer .footer-copyright {
 		bottom : 0;
 	}
 }
+
+.carousel {
+	height: 200px;
+}
