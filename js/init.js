@@ -23,12 +23,6 @@
     padding: 48,
     // full_width: 100
   });
-  $('.grid').masonry({
-    // options
-    // itemSelector: '.grid-item',
-    // columnWidth: '.gridItem',
-    percentPosition: true,
-  });
   const options = [{
     selector: '.carousel',
     offset: 500,
@@ -48,6 +42,12 @@
     // }
   ];
   Materialize.scrollFire(options);
+  $('.grid').masonry({
+    // options
+    // itemSelector: '.grid-item',
+    // columnWidth: '.gridItem',
+    percentPosition: true,
+  });
   // end of document ready
 }(jQuery));
 // end of jQuery name space
