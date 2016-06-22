@@ -11,6 +11,10 @@ nav .brand-logo {
 	height: 100%;
 }
 
+.italics {
+	font-style: italic;
+}
+
 .spacer {
 	height: 100vh;
 }
