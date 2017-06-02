@@ -9,7 +9,12 @@
     <title>MITT HAV</title>
     <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen" /> </head>
+    <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen" />
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
+
+</head>
 
 <body class="white">
     <main>
@@ -378,11 +383,23 @@
         </div>
         <div class="modal-footer blue"> <a href="#!" class=" modal-action modal-close waves-effect waves-light btn-flat"><i class="mdi mdi-close"></i></a> </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
     <script src="js/init.min.js"></script>
-    <!-- <script src="js/main.min.js"></script> -->
+    <script>
+        $(window).scroll(function gridUpdate() {
+            $('.grid').masonry({
+
+                percentPosition: true,
+            });
+        });
+        $(document)
+            .ready(function() {
+                $('.grid')
+                    .masonry({
+                        percentPosition: true,
+                    });
+            });
+
+    </script>
 </body>
 
 </html>
