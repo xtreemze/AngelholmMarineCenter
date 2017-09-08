@@ -17,12 +17,11 @@
   },
   "homepage": "https://github.com/xtreemze/AngelholmMarineCenter#readme",
   "devDependencies": {
-    "eslint": "^2.9.0",
+    "eslint": "^2.13.1",
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-react": "^5.1.1"
+    "eslint-plugin-react": "^5.2.2"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "globals": {
     "$": true,
     "Materialize": true,
